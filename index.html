@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <style>
+        .header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #000029;
+  
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid #ff66c4;
+  border-radius: 30px;
+  color: #ff66c4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 50px;
+  background-color: rgb(0, 0, 54);
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+.hero-text h1 span {
+  color: #ff66c4;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: aliceblue;
+}
+
+.service-btn {
+  padding: 12px 25px;
+  background-color: #ff66c4;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero-image img {
+  width: 728px;
+  height: 400px;
+  
+}
+.services-section {
+  text-align: center;
+  padding: 80px 40px;
+  background-color: #fff;
+  color: #0a0a23;
+}
+
+.services-header .subtitle {
+  color: #ff66c4;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.services-header h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #0a0a23;
+  margin-bottom: 50px;
+}
+
+.services-cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background: #fff;
+  padding: 30px 20px;
+  max-width: 300px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+  transition: 0.3s ease;
+}
+
+.service-card img {
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.service-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #0a0a23;
+}
+
+.service-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+.growth-section {
+  background-color: #f9f9f9;
+  padding: 80px 50px;
+}
+
+.growth-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.growth-image-wrapper {
+  position: relative;
+  flex: 1;
+}
+
+.growth-image {
+  border-radius: 16px;
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+}
+
+.notification-card {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: white;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+  border-radius: 10px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  max-width: 300px;
+}
+
+.notification-card img {
+  width: 32px;
+  height: 32px;
+}
+
+.notification-card strong {
+  font-size: 1rem;
+  color: #0a0a23;
+}
+
+.notification-card p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.growth-content {
+  flex: 1;
+  max-width: 500px;
+}
+
+.growth-content h2 {
+  font-size: 2.4rem;
+  margin-bottom: 30px;
+  color: #0a0a23;
+}
+
+.growth-feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.growth-feature img {
+  width: 40px;
+  height: 40px;
+}
+
+.growth-feature h4 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #0a0a23;
+}
+
+.growth-feature p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 5px;
+}
+
+.more {
+ width: 50px;
+  margin-top: 30px;
+  padding: 12px 25px;
+  background-color: #ff66c4;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+
+.growth-image-wrapper {
+  position: relative;
+  flex: 1;
+}
+.growth-section{
+  display: flex;
+}
+.middle-content p{
+  color: palevioletred;
+ 
+  font-size: 1.2rem;
+  margin-left: 50px;
+
+}
+.middle-content h3{
+  color: white;
+  font-size: 2.5rem;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.middle-section{
+  background-color: rgb(3, 3, 59);
+  height: 670px;
+  padding-top: 50px;
+ 
+}
+.middle-content{
+  margin-left: 60px;
+  margin-top: 60px;
+}
+.middle-content2{
+  color: white;
+  font-size: 20px;
+   margin-left: 60px;
+  margin-top: 110px;
+}
+.middle-section2{
+   display: flex;
+  gap: 200px;
+
+}
+.div1{
+  border: 1px solid gray;
+  margin-left: 100px;
+  height: 200px;
+  width: 250px;
+  padding-top: 30px;
+  margin-top: 40px;
+  box-sizing: border-box;
+  
+}
+.div1 h3{
+  color: white;
+  margin-left: 70px;
+  margin-top: 20px;
+ 
+}
+.div1 img{
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.div2{
+  border: 1px solid gray;
+  margin-left: 30px;
+  height: 200px;
+  width: 250px;
+  padding-top: 30px;
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+.div2 h3{
+  color: white;
+  margin-left: 70px;
+  margin-top: 20px;
+ 
+}
+.div2 img{
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.div3{
+  border: 1px solid gray;
+  margin-left: 30px;
+  height: 200px;
+  width: 250px;
+  padding-top: 30px;
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+.div3 h3{
+  color: white;
+  margin-left: 70px;
+  margin-top: 20px;
+ 
+}
+.div3 img{
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.div4{
+  border: 1px solid gray;
+  margin-left: 30px;
+  height: 200px;
+  width: 250px;
+  padding-top: 30px;
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+.div4 h3{
+  color: white;
+  margin-left: 70px;
+  margin-top: 20px;
+ 
+}
+.div4 img{
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.boxs{
+  display: flex;
+}
+.middle-section h6{
+  color: white;
+  font-size: 1.2rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.Education-1{
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  top: 90px;
+}
+.Education-1 h1{
+  
+  font-size: 50px;
+}
+.Education-1 button{
+  border-radius: 25px;
+  padding: 15px 30px;
+  margin-top: 40px;
+  font-size: 16px;
+  color: rgb(214, 89, 131);
+  background-color: white;
+  border: 1px solid palevioletred;
+}
+.Education-container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 150px;
+  gap: 200px;
+  
+
+}
+.item-1 h1{
+  font-size: 70px;
+  margin-bottom: 0px;
+}
+.item-1 p{
+  font-size: 20px;
+  
+  
+}
+
+.item-2 h1{
+  font-size: 70px;
+   margin-bottom: 0px;
+}
+.item-2 p{
+  font-size: 20px;
+ 
+}
+.item-3 h1{
+  font-size: 70px;
+   margin-bottom: 0px;
+}
+.item-3 p{
+  font-size: 20px;
+ 
+}
+hr{
+  margin-top: 100px;
+}
+ .end-heading h1{
+  font-size: 38px;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  top: 60px;
+  
+}
+.end{
+  display: flex;
+  gap: 50px;
+  margin-top: 130px;
+  margin-left: 90px;
+}
+.end-1 h2{
+  position: relative;
+  text-align: center;
+  bottom: 198px;
+  color: white;
+  font-size: 30px;
+
+}
+.end-1 h4{
+  position: relative;
+  text-align: center;
+  bottom: 230px;
+  color: white;
+  font-size: 15px;
+}
+.end-1 p{
+  position: relative;
+  bottom: 100px;
+  font-size: 25px;
+}
+.end-2 h2{
+  position: relative;
+  text-align: center;
+  bottom: 198px;
+  color: white;
+  font-size: 30px;
+
+}
+.end-2 h4{
+  position: relative;
+  text-align: center;
+  bottom: 230px;
+  color: white;
+  font-size: 15px;
+}
+.end-2 p{
+  position: relative;
+  bottom: 100px;
+  font-size: 25px;
+}
+.end-3 h2{
+  position: relative;
+  text-align: center;
+  bottom: 198px;
+  color: white;
+  font-size: 30px;
+
+}
+.end-3 h4{
+  position: relative;
+  text-align: center;
+  bottom: 230px;
+  color: white;
+  font-size: 15px;
+}
+.end-3 p{
+  position: relative;
+  bottom: 100px;
+  font-size: 25px;
+}
+
+.end-1 :hover{
+  transform: scale(1.05);
+  transition: 1.0s ease;
+  color: black;
+  
+  display: block;
+
+  
+}
+.end-2 :hover{
+  transform: scale(1.05);
+  transition: 1.0s ease;
+  color: black;
+  
+  display: block;
+
+  
+}
+.end-3 :hover{
+  transform: scale(1.05);
+  transition: 1.0s ease;
+  color: black;
+  
+  display: block;
+
+  
+}
+.bottom{
+  height: 600px;
+  width: 1350px;
+  background-image: url(https://preview.colorlib.com/theme/itkol/assets/img/gallery/section_bg01.jpg.webp);
+  
+  
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  
+
+  
+
+  
+  
+
+}
+.bottom img{
+ background-color: palevioletred;
+ background: none;
+
+ position: relative;
+ border-radius: 50%;
+
+ width: 100px;
+ height: 100px;
+ 
+ 
+}
+.bottom-1{
+   position: relative;
+   top: 150px;
+  
+
+}
+.bottom-1 h1{
+  color: white;
+  font-size: 45px;
+
+}
+
+.bottom-1 button{
+  border-radius: 25px;
+  padding: 15px 50px;
+  font-size: 20px;
+  color: rgb(214, 89, 131);
+  background-color: white;
+  border: none;
+}
+.bottom-1 button:hover{
+   transform: scale(1.05);
+  transition: 1.0s ease;
+  color: white;
+  background-color: rgb(3, 3, 59);
+  
+  
+
+
+}
+.bottom-1 h1:hover{
+   transform: scale(1.05);
+  transition: 1.0s ease;
+  color: black;
+
+}
+.bottom-1 img:hover{
+   transform: scale(1.05);
+  transition: 1.0s ease;
+  
+}
+.service-card:hover{
+  transform: scale(1.05);
+  transition: 1.0s ease;
+  
+  
+}
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <header class="header">
+    <div class="logo"> IT-Kol</div>
+    <nav class="nav">
+      <a href="">Home</a>
+      <a href="">Services</a>
+      <a href="">About</a>
+      <a href="">Case Study</a>
+      <a href="">Blog</a>
+      <a href="">Contact</a>
+    </nav>
+    <a href="" class="button">Get Free Quote</a>
+  </header>
+
+
+    <section class="hero">
+    <div class="hero-text">
+      <h1>We provide <span>best IT solution</span></h1>
+      <p>Naxly brings the power of data science and artificial intelligence to every business.</p>
+      <a href="#" class="service-btn">Our Services</a>
+    </div>
+     <div class="hero-image">
+      <img src="https://preview.colorlib.com/theme/itkol/assets/img/hero/hero-img.png" alt="">
+    </div>
+  </section>
+   <section class="services-section">
+  <div class="services-header">
+    <p class="subtitle">Our Services</p>
+    <h2>IT solutions for startup<br>and enterprises</h2>
+  </div>
+
+  <div class="services-cards">
+    <div class="service-card">
+      <img src="https://preview.colorlib.com/theme/itkol/assets/img/icon/services1.svg" alt="Managed IT services" >
+      <h3>Managed IT services</h3>
+      <p>Naxly bring the power of data science and artificial intelligence to every business.</p>
+    </div>
+    <div class="service-card">
+      <img src="https://preview.colorlib.com/theme/itkol/assets/img/icon/services2.svg" alt="Backup and recovery" >
+      <h3>Backup and recovery</h3>
+      <p>Naxly bring the power of data science and artificial intelligence to every business.</p>
+    </div>
+    <div class="service-card">
+      <img src="https://preview.colorlib.com/theme/itkol/assets/img/icon/services3.svg" >
+      <h3>Cyber security</h3>
+      <p>Naxly bring the power of data science and artificial intelligence to every business.</p>
+    </div>
+  </div>
+</section>
+<div class="growth-section">
+<div class="growth-image-wrapper">
+      <img src="https://preview.colorlib.com/theme/itkol/assets/img/gallery/about1.jpg" alt="Team Working" class="growth-image" />
+</div>
+ 
+ <div class="growth-content">
+      <h2>Grow your<br>business fast.</h2>
+
+      <div class="growth-feature">
+        <img src="https://preview.colorlib.com/theme/itkol/assets/img/icon/notification1.svg" alt="Engage Icon" />
+        <div>
+          <h4>Engage Teammates</h4>
+          <p>Naxly bring the power of data science and artificial intelligence to every business.</p>
+        </div>
+      </div>
+
+      <div class="growth-feature">
+        <img src="https://preview.colorlib.com/theme/itkol/assets/img/icon/notification1.svg" alt="Productivity Icon" />
+        <div>
+          <h4>Level Up Productivity</h4>
+          <p>Naxly bring the power of data science and artificial intelligence to every business.</p>
+        </div>
+      </div>
+
+      <a href="#" class="more">Learn More</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="middle-section">
+  <div class="middle-section2">
+  <div class="middle-content">
+      <p>Industries We Serve</p>
+  <h3>IT services customized <br>for your industry</h3>
+  
+  </div>
+  <div class="middle-content2">
+    <p>No matter the business, NanoSoft has you covered with <br> industry compliant solutions, customized to your <br>companys specific needs.</p>
+
+  </div>
+  </div>
+  <section class="boxs">
+  <div class="div1">
+    <img src="https://preview.colorlib.com/theme/itkol/assets/img/icon/stack1.svg" alt="">
+    <h3>
+      industry and <br>manufacturing
+    </h3>
+  </div>
+   <div class="div2">
+    <img src="https://preview.colorlib.com/theme/itkol/assets/img/icon/stack2.svg" alt="">
+    <h3>Education and <br> Health</h3>
+   </div>
+    <div class="div3">
+      <img src="https://preview.colorlib.com/theme/itkol/assets/img/icon/stack3.svg" alt="">
+    <h3>Retail & <br> Ecommerce</h3>
+      
+    </div>
+     <div class="div4">
+      <img src="https://preview.colorlib.com/theme/itkol/assets/img/icon/stack4.svg" alt="">
+    <h3>Travel & <br> Hospitality</h3>
+      
+     </div>
+    
+     </section>
+      <h6>Need a Technology support? Get Started Now</h6>
+
+  
+</section>
+<section class="Education">
+  <div class="Education-1">
+    <h1>ITKol - Partner for Your Business</h1>
+    <p>We understand the complexities of modern markets and translate them into real business <br> solutions for automotive,
+       financial, insurance, pharma & life sciences, and real estate with <br> more to come.</p>
+       <button>Request a Quote</button>
+  </div>
+  <div class="Education-container">
+    <div class="item-1">
+      <h1>2500+</h1>
+      <p>We understand the complexities <br> of modern markets</p>
+    </div>
+    <div class="item-2">
+      <h1>350+</h1>
+      <p>We understand the complexities <br> of modern markets</p>
+    </div>
+    <div class="item-3">
+      <h1>20+</h1>
+      <p>We understand the complexities <br> of modern markets</p>
+    </div>
+
+
+  </div>
+  
+</section>
+<hr>
+
+<section>
+  <div class="end-heading">
+
+  <h1>Some of Our Great Stuffs</h1>
+  
+  </div>
+  <div class="end">
+    <div class="end-1"> 
+      <img src="https://preview.colorlib.com/theme/itkol/assets/img/gallery/stuffs1.jpg" alt="">
+      <h2>INSPIRE</h2>
+      <h4>design studio</h4>
+      <p>The Security Risks of Changing <br> Package Owners</p>
+    </div>
+    <div class="end-2">
+      <img src="https://preview.colorlib.com/theme/itkol/assets/img/gallery/stuffs2.jpg" alt="">
+      <h2>INSPIRE</h2>
+      <h4>design studio</h4>
+      <p>The Security Risks of Changing <br> Package Owners</p>
+      
+    </div >
+    <div class="end-3">
+      <img src="https://preview.colorlib.com/theme/itkol/assets/img/gallery/stuffs3.jpg" alt="">
+      <h2>INSPIRE</h2>
+      <h4>design studio</h4>
+      <p>The Security Risks of Changing <br> Package Owners</p>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="bottom">
+    <div class="bottom-1">
+   <img src="C:\Users\Abdul rafay\Downloads\download (2).png" alt="">
+   <h1>Innovative IT Solution for your <br> Business & Startup</h1>
+   <button>Get Start Now</button>
+   </div>
+
+  </div>
+</section>
+
+
+
+    
+</body>
+</html>
